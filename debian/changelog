@@ -1,0 +1,15 @@
+ruby-deep-merge (1.1.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bump Standards to 3.9.8; no changes needed
+  * d/control: use HTTPS for all URLs
+  * d/copyright: adjust upstream & debian/ years
+
+ -- Apollon Oikonomopoulos <apoikos@debian.org>  Sun, 11 Sep 2016 21:10:11 +0300
+
+ruby-deep-merge (1.0.1+gitf9df6fdb-1) unstable; urgency=medium
+
+  * Initial release (Closes: #793293)
+  * Import upstream git up to and including commit f9df6fdb.
+
+ -- Apollon Oikonomopoulos <apoikos@debian.org>  Wed, 22 Jul 2015 22:41:59 +0300

@@ -1,0 +1,26 @@
+Source: ruby-deep-merge
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Apollon Oikonomopoulos <apoikos@debian.org>
+Build-Depends: debhelper (>= 9),
+               gem2deb
+Standards-Version: 3.9.8
+Vcs-Git: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-deep-merge.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-deep-merge.git
+Homepage: https://github.com/danielsdeleo/deep_merge
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+
+Package: ruby-deep-merge
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Enhances: hiera
+Description: recursively merge Hash elements in Ruby
+ Deep Merge is a simple set of utility functions for Ruby hashes. It allows
+ merging elements inside a hash together recursively. Since there is no
+ standard for this, the merging is done in an arbitrary way, but should end
+ up being pretty intuitive and do what is expected.

@@ -1,3 +1,9 @@
+ruby-deep-merge (1.1.1-1~calibre9+1) calibre9; urgency=medium
+
+  * Backport to Calibre9.
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Fri, 25 Nov 2016 14:53:21 +0100
+
 ruby-deep-merge (1.1.1-1) unstable; urgency=medium
 
   * New upstream release

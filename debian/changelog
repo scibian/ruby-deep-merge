@@ -1,3 +1,9 @@
+ruby-deep-merge (1.1.1-1sci8u1) scibian8; urgency=medium
+
+  * Scibian8 rebuild
+
+ -- Benoit Boccard <benoit-externe.boccard@edf.fr>  Wed, 13 Dec 2017 17:38:21 +0100
+
 ruby-deep-merge (1.1.1-1~calibre9+1) calibre9; urgency=medium
 
   * Backport to Calibre9.

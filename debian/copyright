@@ -9,6 +9,7 @@ License: MIT
 
 Files: debian/*
 Copyright: 2015-2016 Apollon Oikonomopoulos <apoikos@debian.org>
+           2017 Scibian Project <legal@scibian.org>
 License: MIT
 Comment: the Debian packaging is licensed under the same terms as the original package.
 

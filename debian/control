@@ -1,13 +1,12 @@
 Source: ruby-deep-merge
 Section: ruby
 Priority: optional
-Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
-Uploaders: Apollon Oikonomopoulos <apoikos@debian.org>
+Maintainer: Scibian Project <packaging@scibian.org>
 Build-Depends: debhelper (>= 9),
                gem2deb
 Standards-Version: 3.9.8
-Vcs-Git: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-deep-merge.git
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-deep-merge.git
+Vcs-Git: https://github.com/scibian/ruby-deep-merge.git
+Vcs-Browser: https://github.com/scibian/ruby-deep-merge
 Homepage: https://github.com/danielsdeleo/deep_merge
 Testsuite: autopkgtest-pkg-ruby
 XS-Ruby-Versions: all
